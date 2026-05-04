@@ -1,24 +1,37 @@
 # API REST Prototipo Products
 
 API construida con Node.js, TypeScript, Express.js, que permite realizar operaciones CRUD sobre una entidad *Products*.
-En este prototipos, además, podemos ver todas las dependencias instaladas a nivel developer, en el archivo *package.json*.
+En este prototipo, además, podemos ver todas las dependencias instaladas a nivel de desarrollador, en el archivo *package.json*.
 
 ## Proyecto
 
 
 ├── src/
+
 │   └── prototipo/
+
 │       ├── server1.ts        - Código principal de la API (único fichero)
+
 │       └── mock.ts           - Productos (datos iniciales en memoria)
+
 ├── prisma/
+
 │   └── schema.prisma         - Schema de Prisma para PostgreSQL
+
 ├── .env.sample
+
 ├── .gitignore
+
 ├── eslint.config.js
+
 ├── package.json
+
 ├── prisma.config.ts
+
 ├── tsconfig.json
+
 └── README.md
+
 
 
 ## Entidad Product
