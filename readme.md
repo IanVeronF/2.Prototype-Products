@@ -5,36 +5,23 @@ En este prototipo, además, podemos ver todas las dependencias instaladas a nive
 
 ## Proyecto
 
-
+```text
 ├── src/
-
 │   └── prototipo/
-
 │       ├── server1.ts        - Código principal de la API (único fichero)
-
 │       └── mock.ts           - Productos (datos iniciales en memoria)
-
 ├── prisma/
-
 │   └── schema.prisma         - Schema de Prisma para PostgreSQL
-
 ├── .env.sample
-
 ├── .gitignore
-
 ├── eslint.config.js
-
 ├── package.json
-
 ├── prisma.config.ts
-
 ├── tsconfig.json
-
 └── README.md
+```
 
-
-
-## Entidad Product
+### Entidad Product
 
 id (string)
 name (string)
