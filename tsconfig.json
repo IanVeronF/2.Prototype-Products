@@ -43,5 +43,5 @@
     "allowImportingTsExtensions": false,
     "erasableSyntaxOnly": true
   },
-  "include": ["./src", ]
+  "include": ["./src", "prototipo"]
 }
