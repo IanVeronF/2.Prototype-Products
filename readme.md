@@ -51,6 +51,18 @@ npm i (o npm install)
 
 Así se instalan las dependencias necesarias para que funcione correctamente.
 
+## Schema prisma
+
+model Product {
+  id         String   @id @default(uuid())
+  name       String
+  price      Float
+  stock      Int
+  is_active  Boolean  @default(true)
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
 
 
 
